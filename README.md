@@ -14,7 +14,7 @@ Prieš pradėdami užsiregistruokite laboratoriniam darbui: [čia](https://b79d2
     3. Sukurkite tcentric/cloud-lab fork’ą savo github paskyroje - **2 balai**
     4. Nusiklonuokite savo nuforkintą github repo lokaliai su `git clone`. Visi kodo pakeitimai bus daromi lokaliai
     5. Sukurtame forke įjungti ir sukonfigūruoti Github Actions. Action'as konfigūruojasi paprastai,
-       sukurkite aplanką `.github/workflows`, į jį įdėkite šį failą (pakeisti <JŪSŲ DOCKERHUB USERNAME> į savo) 
+       sukurkite aplanką `.github/workflows`, į jį įdėkite šį failą (pakeisti **visus** <JŪSŲ DOCKERHUB USERNAME> į savo) 
        Failo pavadinimas turi būti **release.yml** - **2 balai**
        **Atkreipkite dėmesį į lygiavimą** Išsaugoję failą galite pasižiūrėti ar lygiavimas tiesingas atsidarę release workflow savo github repo (github.com)
        
@@ -66,7 +66,7 @@ Prieš pradėdami užsiregistruokite laboratoriniam darbui: [čia](https://b79d2
       3.  Pakeitimus išsaugoti savo git repo su git commit ir git push
       4.  Adarykite naują release githube, pavadinkite jį **v0.2**
       5.  Po to, kai github Actions subuildins naują Docker image'ą, atnaujinkinte jį savo kubernetes deploymente su komanda:
-         `kubectl set image deploy app=<jusu dockerhub username/cloud-app:v0.2` - **2 balai**
+         `kubectl set image deploy lab app=<jusu dockerhub username/cloud-lab:v0.2` - **2 balai**
 
 
  
