@@ -66,7 +66,7 @@ Prieš pradėdami užsiregistruokite laboratoriniam darbui: [čia](https://b79d2
       3.  Pakeitimus išsaugoti savo git repo su git commit ir git push
       4.  Adarykite naują release githube, pavadinkite jį **v0.2**
       5.  Po to, kai github Actions subuildins naują Docker image'ą, atnaujinkinte jį savo kubernetes deploymente su komanda:
-         `kubectl set image deploy app=<jusu dockerhub username/cloud-app:v0.2` - **2 balai**
+         `kubectl set image deploy lab app=<jusu dockerhub username/cloud-lab:v0.2` - **2 balai**
 
 
  
