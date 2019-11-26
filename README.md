@@ -53,12 +53,12 @@ Prieš pradėdami užsiregistruokite laboratoriniam darbui: [čia](https://b79d2
     8. **Pakeitimus išsaugokite savo github repozitorijoje panaudojant git commit ir git push**
              
 2.  Konteinerizuotos aplikacijos paleidimas Kubernetes clusteryje (1 balas)
-      1. Parsisiųskite kubeconfig'ą su komanda: `mkdir ~/.kube && curl -X GET -s https://b79d2d57-c967-4074-948e-3ad103dccedb.lab.cloudcat.online/kubeconfig/<JŪSŲ github username> > ~/.kube/config`
+      1. Parsisiųskite kubeconfig'ą su komanda: `mkdir ~/.kube && curl -X GET -s https://9cf7c813-a697-4709-ab2a-b91d96ee2375.lab.cloudcat.online/kubeconfig/<JŪSŲ github username> > ~/.kube/config`
       2. Sukurkite naują release savo github repo, pavadinkite jį v0.1 - **1 balas**
       3. Paruoškite kubernetes manifestus (įrašyti informaciją prie TODO pažymėtų vietų) [žiūrėti čia](./infrastructure/k8s)
       4. Nusiųskite manifestus į kubernetes clusterį su komanda: `kubectl apply -f infrastructure/k8s/` **1 balas**
       5. Atskirame terminalo lange įvykdykite komandą `kubectl port-forward svc/lab 8080:80`
-      6. Naršyklėje atsidarykite: http://localhost:8080 - tai jūsų aplikacija Kuebrnetes clusteryje. Ji automatiškai tikrinis 4 etapo užduotis ir matysite, kada užduotis bus įvykdyta
+      6. Naršyklėje atsidarykite: http://localhost:8080 - tai jūsų aplikacija Kubernetes clusteryje. Ji automatiškai tikrinis 4 etapo užduotis ir matysite, kada užduotis bus įvykdyta
    
 4.  API serviso pakeitimai ir deploymentas (3 balai)
       1.  Pridėti papildomą http endpointą į API servisą /{username} [žiūrėti čia](./cmd/api.go) - **1 balas**
