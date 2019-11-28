@@ -2,7 +2,7 @@
 Laboratorinio darbo tikslas - paleisti savo mikroservisą Kubernetes clusteryje, kuris yra Microsoft Azure Cloude (AKS).
 
 Laboratorinio darbo žingsniai ir įvertinimas už kiekvieną žingsnį yra žemiau.
-Prieš pradėdami užsiregistruokite laboratoriniam darbui: [čia](https://b79d2d57-c967-4074-948e-3ad103dccedb.lab.cloudcat.online/)
+Prieš pradėdami užsiregistruokite laboratoriniam darbui: [čia](https://9cf7c813-a697-4709-ab2a-b91d96ee2375.lab.cloudcat.online/)
 
 
 1. Github ir Dockerhub repo paruošimas (4 balai)
